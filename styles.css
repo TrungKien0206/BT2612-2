@@ -39,8 +39,11 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: 900;
 }
-
+.content h1 {
+  font-weight: 50;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -127,7 +130,7 @@ body {
 .container:hover .icon {
   opacity: 1;
   /* transform: translate(0, 0) scale(1); */
-  transform: translate(0, 0) translateZ(0) scale(1); /* Bay vào và xuất hiện */
+  transform: translate(0, 0) translateZ(0) scale(1);
 }
 
 .container:hover .icon:nth-child(1) {
